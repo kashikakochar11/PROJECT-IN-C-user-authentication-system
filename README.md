@@ -42,21 +42,8 @@ Compile all source files together:
 
 bash
 gcc main.c account.c otp.c password.c recovery.c -o auth_system
-
-Or on mac:
-
-cmd
-gcc main.c account.c otp.c password.c recovery.c -o auth_system.exe
-
-### Running the Program
-
-On Linux/windows:
-bash
 ./auth_system
 
-On mac:
-cmd
-auth_system.exe
 
 ## 📖 Usage
 
@@ -154,5 +141,6 @@ This project is licensed under the MIT License - see the [LICENSE] file for deta
 
 - Built as a learning project for C programming
 - Demonstrates core concepts: modular programming, file handling, and user authentication
+
 
 ⭐ **Star this repository if you find it helpful!**
