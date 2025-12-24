@@ -87,16 +87,16 @@ gcc main.c account.c otp.c password.c recovery.c -o auth_system
 ## 💡 Example
 
 ```
-*** USER AUTHENTICATION SYSTEM ***
+USER AUTHENTICATION SYSTEM
 
---- MENU ---
+ MENU 
 1. Create Account
 2. Login
 3. Forgot Password
 4. Exit
 Choice: 1
 
-=== CREATE ACCOUNT ===
+CREATE ACCOUNT 
 Email: user@example.com
 Password: ********
 Confirm: ********
@@ -106,10 +106,9 @@ Security Question (choose 1, 2, or 3):
 2. Birth city?
 3. Mother's name?
 Choice: 1
-Answer: ****
 
+Answer: ****
 Account created!
-```
 
 ## 📝 Code Structure
 
@@ -144,3 +143,4 @@ This project is licensed under the MIT License - see the [LICENSE] file for deta
 
 
 ⭐ **Star this repository if you find it helpful!**
+
